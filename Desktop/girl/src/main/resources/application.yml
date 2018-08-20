@@ -1,0 +1,22 @@
+server:
+  port: 8081
+  context-path: /girl
+spring:
+  profiles:
+    active: tan
+#设置使用哪个配置文档 配置文件命名方式application-名字.yml
+#spring:
+#  profiles:
+#    active:
+#springboot 启动方式
+#java -jar 项目路径 --spring.profiles.active=配置文件后缀
+#
+#
+#
+#链接数据库
+#spring:
+#  datasource:
+#    url:
+#    username:
+#    password:
+#    driver-class-name:
